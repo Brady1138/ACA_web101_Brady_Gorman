@@ -1,0 +1,73 @@
+.Body {
+    display: grid;
+    grid-template-columns: 186px 1626px 20px;
+    grid-template-rows: 571px 400px
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin: 3% 10%;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+  nav > a {
+    margin: 1% 1% 1%;
+    height: 10%;
+    width: 15%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  .has-border {
+    border-radius: 25px;
+    border: 2px solid #0795C3;
+    background: none;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+  h1 {
+    font-family: 'Nunito', sans-serif;
+  }
+  .mainpic {
+     grid-column:2/3;
+     grid-row: 1/2;
+  }
+  .AboutMe {
+      display: flex;
+      margin-top: -90px;
+      background-color: #0795c3;
+      color: white;
+      width: 1243px;
+      height: 138px;
+      grid-column: 2/3;
+      grid-row: 2/3;
+      
+  
+  }
+  h1 {
+      font-size: 300%;
+      margin-left: 21px;
+  }
+  p {
+      margin-left: 75px;
+      margin-top: 44px;
+      text-align: left;
+      font-family: 'IBM Plex Sans', sans-serif;
+  }
