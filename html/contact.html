@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact Me!</title>
+</head>
+<body>
+    <h1>Get a Hold of Me</h1>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+    <div class="Email">
+        <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    </div>
+    <div class="Checkbox">
+    <h4>How Did You Hear About Me?</h4>
+    <ul>
+        <li>
+        <input type="checkbox" id="Classmate" name="Classmate" value="Classmate">
+        <label for="Classmate">Classmate</label>
+        </li>
+        <li>
+        <input type="checkbox" id="Resume Submission" name="Classmate" value="Resume Submission">
+        <label for="Resume Submission">Resume Submission</label>
+        </li>
+        <li>
+        <input type="checkbox" id="LinkedIn" name="LinkedIn" value="LinkedIn">
+        <label for="LinkedIn">LinkedIn</label>
+        </li>
+        <li>
+        <input type="checkbox" id="Coding Academy Rec" name="Coding Academy Rec" value="Coding Academy Rec">
+        <label for="Coding Academy Rec>">Coding Academy Rec</label>
+        </li>
+    </ul>
+    </div>
+    <div class="Radio">
+        <p>Would you like me to reach out to you?</p>
+        <input type="radio" id="yes" name="yes" value="Yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="no" value="No">
+        <label for="no">No</label>
+    </div>
+    <div class="Birthday">
+        <p>Do you want a Birthday Wish? Shoot me the date!</p>
+        <input type="date" id="birthday" name="birthday" value="birthday">
+        <label for="birthday">DOB</label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <textarea cols="50" row="70" placeholder="Comments" minlength="20" id="comments" name="comments">Comments</textarea> <br>
+    <button type="submit">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
